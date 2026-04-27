@@ -18,6 +18,7 @@ Each chapter's exercises are stored as separate Cargo projects in this repo.
 | [parse_config_value](./parse_config_value) | [Ch 9 — Error Handling](https://github.com/microsoft/RustTraining/blob/main/python-book/src/ch09-error-handling.md) | `Result<T, E>`, custom error enums, `thiserror` crate, `#[derive(Error)]`, `#[from]` auto-conversion, `?` operator, error variants (unit/tuple/struct) |
 | [generic_summary_trait](./generic_summary_trait) | [Ch 10 — Traits and Generics](https://github.com/microsoft/RustTraining/blob/main/python-book/src/ch10-traits-and-generics.md) | Trait definition, `impl Trait for Type`, trait methods, `impl Trait` parameter syntax, static dispatch, polymorphism, `format!` macro |
 | [temperature_conversion_library](./temperature_conversion_library) | [Ch 11 — From and Into Traits](https://github.com/microsoft/RustTraining/blob/main/python-book/src/ch11-from-and-into-traits.md) | `From` trait, `Into` trait, `TryFrom` trait, infallible vs. fallible conversions, `Display` trait, custom error messages |
+| [derive_and_custom_debug](./derive_and_custom_debug) | [Ch 12 — Closures and Iterators](https://github.com/microsoft/RustTraining/blob/main/python-book/src/ch12-closures-and-iterators.md) | `#[derive]` macro (`Clone`, `PartialEq`), manual `impl Debug`, `Formatter::debug_struct` builder, field redaction for sensitive data, `std::fmt` module |
 
 ## Prerequisites
 
